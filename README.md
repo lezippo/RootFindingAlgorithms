@@ -17,7 +17,7 @@ The secant method is another iterative root-finding algorithm that doesn't requi
 
 1. **Initial Guesses**: Start with two initial guesses $x_0$ and $x_1$ close to the actual root.
 2. **Iteration**: Iterate using the formula:
-   $x_{n+1} = x_n - \frac{f(x_n)(x_n - x_{n-1})}{f(x_n) - f(x_{n-1})}$
+   $$x_{n+1} = x_n - \frac{f(x_n)(x_n - x_{n-1})}{f(x_n) - f(x_{n-1})}$$
 3. **Convergence**: Repeat step 2 until $|f(x_n)|$ is smaller than a predetermined tolerance or until a maximum number of iterations is reached.
 
 ## Fixed-Point Method
