@@ -40,6 +40,10 @@ The fixed-point method is an iterative technique for finding the fixed point of 
 
 ## Comparison
 
+- **Bisection Method**:
+  - Does not require knowledge of the function's derivative.
+  - Guaranteed to converge to a solution if the function is continuous and changes sign over the interval.
+  - Convergence rate is slower compared to Newton's method but can be more robust in certain scenarios.
 - **Newton's Method**:
   - Requires the derivative of the function.
   - Generally converges faster.
