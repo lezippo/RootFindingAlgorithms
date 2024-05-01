@@ -8,7 +8,15 @@ Here's the table of contents for the readme:
   4. [Fixed-Point Method](#fixed-point-method)
   5. [Comparison](#comparison)
 2. [Code structure](#code-structure)
-3. [Examples](#examples)
+   - [mybisection](#mybisection)
+   - [mynewton](#mynewton)
+   - [mysecant](#mysecant)
+   - [myg](#myg)
+   - [errmybisection](#errmybisection)
+   - [errmynewton](#errmynewton)
+   - [errmysecant](#errmysecant)
+   - [errmyg](#errmyg)
+4. [Examples](#examples)
 
 # Theory
 ## Bisection Method
