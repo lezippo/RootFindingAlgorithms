@@ -1,13 +1,16 @@
 # RootFindingAlgorithms
 Find functions' zeros using Bisection, Fixed Point, Newton, Secants Methods
 Here's the table of contents for the readme:
+1. [Theory](#theory)
+  1. [Bisection Method](#bisection-method)
+  2. [Newton's Method](#newtons-method)
+  3. [Secant Method](#secant-method)
+  4. [Fixed-Point Method](#fixed-point-method)
+  5. [Comparison](#comparison)
+2. [Code structure](#code-structure)
+3. [Examples](#examples)
 
-1. [Bisection Method](#bisection-method)
-2. [Newton's Method](#newtons-method)
-3. [Secant Method](#secant-method)
-4. [Fixed-Point Method](#fixed-point-method)
-5. [Comparison](#comparison)
-
+# Theory
 ## Bisection Method
 
 The bisection method is an iterative root-finding algorithm that operates by narrowing down the interval in which the root of a function lies. It does not require knowledge of the function's derivative and is guaranteed to converge to a solution if certain conditions are met. Here's how it works:
@@ -65,3 +68,7 @@ The fixed-point method is an iterative technique for finding the fixed point of 
   - Requires transforming the equation to find the fixed point.
 
 All three methods are effective for finding roots of functions, with Newton's method being more efficient when the derivative is readily available and the function behaves well, the secant method being more versatile in cases where the derivative is not easily obtainable or the function is not well-behaved, and the fixed-point method providing an alternative approach when direct root-finding methods are not applicable.
+
+# Code Structure
+
+# Examples
