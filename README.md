@@ -6,7 +6,7 @@ Find functions' zeros using Bisection, Fixed Point, Newton, Secants Methods
   - [Secant Method](#secant-method)
   - [Fixed-Point Method](#fixed-point-method)
   - [Comparison](#comparison)
-2. [Code structure](#code-structure)
+2. [Function Documentation](#function-documentation)
   - [mybisection](#mybisection)
   - [mynewton](#mynewton)
   - [mysecant](#mysecant)
