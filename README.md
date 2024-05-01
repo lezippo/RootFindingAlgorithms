@@ -1,6 +1,5 @@
 # RootFindingAlgorithms
 Find functions' zeros using Bisection, Fixed Point, Newton, Secants Methods
-Here's the table of contents for the readme:
 1. [Theory](#theory)
   - [Bisection Method](#bisection-method)
   - [Newton's Method](#newtons-method)
@@ -21,7 +20,7 @@ Here's the table of contents for the readme:
 # Theory
 ## Bisection Method
 
-The bisection method is an iterative root-finding algorithm that operates by narrowing down the interval in which the root of a function lies. It does not require knowledge of the function's derivative and is guaranteed to converge to a solution if certain conditions are met. Here's how it works:
+The bisection method is an iterative root-finding algorithm that operates by narrowing down the interval in which the root of a function lies. It does not require knowledge of the function's derivative and is guaranteed to converge to a solution if certain conditions are met.
 
 1. **Interval Selection**: Start with an interval $[a, b]$ such that $f(a)$ and $f(b)$ have opposite signs, indicating the presence of a root between $a$ and $b$ (i.e., $f(a) \cdot f(b) < 0$).
 2. **Iteration**: Divide the interval in half and evaluate the function at the midpoint $c$. If $f(c)$ is zero, $c$ is the root. Otherwise, determine which half of the interval contains the root by comparing the signs of $f(a)$ and $f(c)$.
@@ -29,7 +28,7 @@ The bisection method is an iterative root-finding algorithm that operates by nar
 
 ## Newton's Method
 
-Newton's method is an iterative root-finding algorithm that uses the derivative of a function to converge quickly to a root. Here's how it works:
+Newton's method is an iterative root-finding algorithm that uses the derivative of a function to converge quickly to a root. 
 
 1. **Initial Guess**: Start with an initial guess $x_0$ close to the actual root.
 2. **Iteration**: Iterate using the formula:
@@ -39,7 +38,7 @@ Newton's method is an iterative root-finding algorithm that uses the derivative 
 
 ## Secant Method
 
-The secant method is another iterative root-finding algorithm that doesn't require the derivative of the function. Instead, it approximates the derivative using finite differences. Here's how it works:
+The secant method is another iterative root-finding algorithm that doesn't require the derivative of the function. Instead, it approximates the derivative using finite differences. 
 
 1. **Initial Guesses**: Start with two initial guesses $x_0$ and $x_1$ close to the actual root.
 2. **Iteration**: Iterate using the formula:
@@ -48,7 +47,7 @@ The secant method is another iterative root-finding algorithm that doesn't requi
 
 ## Fixed-Point Method
 
-The fixed-point method is an iterative technique for finding the fixed point of a function. If the fixed point corresponds to a root of $g(x) = x$, it can be used to find the root of the original function. Here's how it works:
+The fixed-point method is an iterative technique for finding the fixed point of a function. If the fixed point corresponds to a root of $g(x) = x$, it can be used to find the root of the original function. 
 
 1. **Transformation**: Rewrite the equation $f(x) = 0$ as $g(x) = x$, where $g(x)$ is a rearrangement of $f(x)$.
 2. **Initial Guess**: Start with an initial guess $x_0$.
