@@ -6,7 +6,7 @@ Find functions' zeros using Bisection, Fixed Point, Newton, Secants Methods
   - [Secant Method](#secant-method)
   - [Fixed-Point Method](#fixed-point-method)
   - [Comparison](#comparison)
-2. [Function Documentation](#function-documentation)
+2. [Functions' documentation](#functions-documentation)
   - [mybisection](#mybisection)
   - [mynewton](#mynewton)
   - [mysecant](#mysecant)
@@ -15,7 +15,6 @@ Find functions' zeros using Bisection, Fixed Point, Newton, Secants Methods
   - [errmynewton](#errmynewton)
   - [errmysecant](#errmysecant)
   - [errmyg](#errmyg)
-3. [Examples](#examples)
 
 # Theory
 ## Bisection Method
@@ -76,7 +75,7 @@ The fixed-point method is an iterative technique for finding the fixed point of 
 
 All three methods are effective for finding roots of functions, with Newton's method being more efficient when the derivative is readily available and the function behaves well, the secant method being more versatile in cases where the derivative is not easily obtainable or the function is not well-behaved, and the fixed-point method providing an alternative approach when direct root-finding methods are not applicable.
 
-# Function Documentation
+# Functions' documentation
 
 ## mybisection
 
@@ -207,5 +206,3 @@ Find the fixed point of a function using fixed-point iteration with error estima
 - `ierr` : An indicator of whether the method converged or not.
 - `errore` : An estimate of the error in the result.
 - `iter` : The number of iterations performed.
-
-# Examples
