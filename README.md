@@ -16,7 +16,7 @@ Here's the table of contents for the readme:
   - [errmynewton](#errmynewton)
   - [errmysecant](#errmysecant)
   - [errmyg](#errmyg)
-4. [Examples](#examples)
+3. [Examples](#examples)
 
 # Theory
 ## Bisection Method
