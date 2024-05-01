@@ -78,5 +78,13 @@ The fixed-point method is an iterative technique for finding the fixed point of 
 All three methods are effective for finding roots of functions, with Newton's method being more efficient when the derivative is readily available and the function behaves well, the secant method being more versatile in cases where the derivative is not easily obtainable or the function is not well-behaved, and the fixed-point method providing an alternative approach when direct root-finding methods are not applicable.
 
 # Code Structure
+## mybisection
+## mynewton
+## mysecant
+## myg
+## errmybisection
+## errmynewton
+## errmysecant
+## errmyg
 
 # Examples
