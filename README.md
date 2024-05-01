@@ -78,13 +78,135 @@ The fixed-point method is an iterative technique for finding the fixed point of 
 All three methods are effective for finding roots of functions, with Newton's method being more efficient when the derivative is readily available and the function behaves well, the secant method being more versatile in cases where the derivative is not easily obtainable or the function is not well-behaved, and the fixed-point method providing an alternative approach when direct root-finding methods are not applicable.
 
 # Code Structure
+
 ## mybisection
+
+### Purpose
+Find the zero of a function within an interval using the bisection method.
+
+### Input
+- `f` (function handle): The function for which the zero is to be found.
+- `a`, `b` (interval endpoints): The interval within which to search for the zero.
+- `tol` (tolerance): The desired accuracy of the result.
+- `kmax` (max iterations): The maximum number of iterations allowed.
+
+### Output
+- `c` (approximate zero): The approximate zero of the function within the specified interval.
+- `ierr` (error indicator): An indicator of whether the method converged or not.
+
 ## mynewton
+
+### Purpose
+Find the zero of a function using Newton's method.
+
+### Input
+- `f` (function handle): The function for which the zero is to be found.
+- `fp` (first derivative): The first derivative of the function.
+- `x0` (initial point): The initial guess for the zero.
+- `tol` (tolerance): The desired accuracy of the result.
+- `kmax` (max iterations): The maximum number of iterations allowed.
+
+### Output
+- `x` (approximate zero): The approximate zero of the function.
+- `ierr` (error indicator): An indicator of whether the method converged or not.
+
 ## mysecant
+
+### Purpose
+Find the zero of a function using the secant method.
+
+### Input
+- `f` (function handle): The function for which the zero is to be found.
+- `x0`, `x1` (initial points): The initial guesses for the zero.
+- `tol` (tolerance): The desired accuracy of the result.
+- `kmax` (max iterations): The maximum number of iterations allowed.
+
+### Output
+- `x` (approximate zero): The approximate zero of the function.
+- `ierr` (error indicator): An indicator of whether the method converged or not.
+
 ## myg
+
+### Purpose
+Find the fixed point of a function within an interval using fixed-point iteration.
+
+### Input
+- `g` (function handle): The function for which the fixed point is to be found.
+- `x0` (initial point): The initial guess for the fixed point.
+- `tol` (tolerance): The desired accuracy of the result.
+- `kmax` (max iterations): The maximum number of iterations allowed.
+
+### Output
+- `x` (approximate fixed point): The approximate fixed point of the function.
+- `ierr` (error indicator): An indicator of whether the method converged or not.
+
 ## errmybisection
+
+### Purpose
+Find the zero of a function within an interval using the bisection method with error estimation.
+
+### Input
+- `f` (function handle): The function for which the zero is to be found.
+- `a`, `b` (interval endpoints): The interval within which to search for the zero.
+- `tol` (tolerance): The desired accuracy of the result.
+- `kmax` (max iterations): The maximum number of iterations allowed.
+
+### Output
+- `c` (approximate zero): The approximate zero of the function within the specified interval.
+- `ierr` (error indicator): An indicator of whether the method converged or not.
+- `errore` (error estimate): An estimate of the error in the result.
+- `iter` (iterations): The number of iterations performed.
+
 ## errmynewton
+
+### Purpose
+Find the zero of a function using Newton's method with error estimation.
+
+### Input
+- `f` (function handle): The function for which the zero is to be found.
+- `fp` (first derivative): The first derivative of the function.
+- `x0` (initial point): The initial guess for the zero.
+- `tol` (tolerance): The desired accuracy of the result.
+- `kmax` (max iterations): The maximum number of iterations allowed.
+
+### Output
+- `x` (approximate zero): The approximate zero of the function.
+- `ierr` (error indicator): An indicator of whether the method converged or not.
+- `errore` (error estimate): An estimate of the error in the result.
+- `iterazioni` (iterations): The number of iterations performed.
+
 ## errmysecant
+
+### Purpose
+Find the zero of a function using the secant method with error estimation.
+
+### Input
+- `f` (function handle): The function for which the zero is to be found.
+- `x0`, `x1` (initial points): The initial guesses for the zero.
+- `tol` (tolerance): The desired accuracy of the result.
+- `kmax` (max iterations): The maximum number of iterations allowed.
+
+### Output
+- `x` (approximate zero): The approximate zero of the function.
+- `ierr` (error indicator): An indicator of whether the method converged or not.
+- `errore` (error estimate): An estimate of the error in the result.
+- `iter` (iterations): The number of iterations performed.
+
 ## errmyg
+
+### Purpose
+Find the fixed point of a function using fixed-point iteration with error estimation.
+
+### Input
+- `g` (function handle): The function for which the fixed point is to be found.
+- `x0` (initial point): The initial guess for the fixed point.
+- `tol` (tolerance): The desired accuracy of the result.
+- `kmax` (max iterations): The maximum number of iterations allowed.
+
+### Output
+- `x` (approximate fixed point): The approximate fixed point of the function.
+- `ierr` (error indicator): An indicator of whether the method converged or not.
+- `errore` (error estimate): An estimate of the error in the result.
+- `iter` (iterations): The number of iterations performed.
 
 # Examples
